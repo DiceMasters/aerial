@@ -1,0 +1,47 @@
+@import './../../../assets/scss/_colors.scss';
+
+.p-sign-in-up {
+  width: 360px;
+
+  background-color: map-get($c-main, white);
+
+  box-shadow: $m-boxs-1;
+
+  border-radius: 5px;
+
+  overflow: hidden;
+
+  &__head {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: map-get($c-main, m-dark);
+
+    padding: 0 15px;
+
+    &-logo {
+      img {
+        width: auto;
+        height: 30px;
+
+        transform: translateY(2px);
+      }
+    }
+  }
+
+  &__body {
+    padding: 10px 15px;
+  }
+
+  &__footer {
+    padding: 0 15px 10px 15px;
+
+    p {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}

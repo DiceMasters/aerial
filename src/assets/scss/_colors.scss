@@ -1,0 +1,28 @@
+/*
+ * Colors
+ */
+
+$c-main: (
+  dark: #03045e,
+  m-dark: #023e8a,
+  medium: #0077b6,
+  p-medium: #0096c7,
+  primary: #00b4d8,
+  l-primary: #48cae4,
+  light: #90e0ef,
+  u-light: #ade8f4,
+  ultra-light: #caf0f8,
+  white: #fff
+);
+
+/*
+ * Shadow
+ */
+
+$m-boxs-1: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+$m-boxs-2: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+$m-boxs-3: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+$m-boxs-4: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
